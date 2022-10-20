@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="css/create.css">
+  <title>Add Recipe</title>
+</head>
+<body>
+  <div class="topnav" id="topnav">
+    <a href="index.html">ABOUT</a>
+    <a href="create-TEST.html"class="active">CREATE</a>
+    <a href="cook-TEST.html">COOK</a>
+    </a>
+  </div>
+<main>
+  <div class="container">
+    <h1 class="app-title">Create Recipe</h1>
+    <ul class="step-list js-step-list"></ul>
+    <div class="empty-state">
+      <h2 class="empty-state__title">Add your first recipe step</h2>
+    </div>
+    
+
+    <form class="js-form">
+      <input
+      autofocus
+      type="text" 
+      aria-label="Enter a recipe step"
+      placeholder="Type step here then press enter key"
+      class="js-step-input">
+    </form>
+    <h3 class="instruction">Proceed to COOK page once all desired steps are entered</h3>
+  </div>
+</main>
+
+<svg>
+  <defs>
+    <symbol id="delete-icon" viewBox="0 0 14 14"><path d="m 13,10.65657 q 0,0.40404 -0.28283,0.68686 l -1.37374,1.37374 Q 11.06061,13 10.65657,13 10.25253,13 9.9697,12.71717 L 7,9.74747 4.0303,12.71717 Q 3.74747,13 3.34343,13 2.93939,13 2.65657,12.71717 L 1.28283,11.34343 Q 1,11.06061 1,10.65657 1,10.25253 1.28283,9.9697 L 4.25253,7 1.28283,4.0303 Q 1,3.74747 1,3.34343 1,2.93939 1.28283,2.65657 L 2.65657,1.28283 Q 2.93939,1 3.34343,1 3.74747,1 4.0303,1.28283 L 7,4.25253 9.9697,1.28283 Q 10.25253,1 10.65657,1 q 0.40404,0 0.68686,0.28283 l 1.37374,1.37374 Q 13,2.93939 13,3.34343 13,3.74747 12.71717,4.0303 L 9.74747,7 12.71717,9.9697 Q 13,10.25253 13,10.65657 z"/>
+  </defs>
+  </svg>
+<script src="js/create.js"></script>
+</body>
+</html>
